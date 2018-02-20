@@ -41,5 +41,13 @@ function factors(x){
 		i++;
     }
 	console.log(factorsList)		
-}
+};
+
+return factors(25)
+
+// Caesar Cipher
+
+var cipher = function(text) {
+
+} 
 

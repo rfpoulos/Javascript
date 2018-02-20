@@ -42,3 +42,4 @@ function factors(x){
     }
 	console.log(factorsList)		
 }
+

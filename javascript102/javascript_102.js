@@ -119,3 +119,37 @@ console.log(longLongVowels('good'))
 console.log(longLongVowels('Cheese'))
 console.log(longLongVowels('Man'))
 
+// Sum Numbers
+//Write a function sumNumbers which is given an array of numbers 
+//and returns the sum of the numbers.
+
+function sumNumbers(arr){
+	var sum = 0;
+	for (var num = 0; num < arr.length; num++){
+		sum += arr[num];
+	}
+	return sum;
+}
+console.log(sumNumbers([1, 4, 8]))
+
+// Just the positives
+// Write a function positiveNumbers which is given an array of numbers 
+//and returns a new array containing only the positive numbers within the given array.
+
+function positiveNumbers(array) {
+	var newList =[];
+	for (var i=0; i<array.length; i++){
+		if ((array[i])>=0) {
+		newList.push(array[i])
+		}
+	}
+	return newList;
+}
+console.log(positiveNumbers([-1,1,0,2,3]))
+console.log(positiveNumbers([-1, -2, -3]))
+
+//Matrix Addition
+//Write a function matrixAdd which is given two two-dimensional arrays, 
+//and returns a new two-dimensional array containing their matrix sum.
+
+

@@ -1,3 +1,5 @@
+//Mine has the same proble, but remember ';' at the end of arguments!
+
 // Print Numbers
 function printNumbers(startNumber, endNumber) {
 	for (var count=startNumber; count <= endNumber; count++) {
@@ -42,3 +44,5 @@ function factors(x){
     }
 	console.log(factorsList)		
 }
+//I would use a for loop, and then make the length the floor half of x
+//so it doesn't half to iterate through numbers that can't be factors
